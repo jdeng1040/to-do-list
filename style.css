@@ -1,0 +1,54 @@
+body {
+    background: #6495ED;
+}
+.container {
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#title { 
+    font-size: 40px;
+    
+}
+
+
+.points-container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+  
+input {
+    padding: 20px;
+    width: 500px;
+    height: 60px;
+    font-size: 35px;
+    border: 0;
+    text-align: center;
+    border-radius: 75px;
+    background: rgb(235, 143, 68);
+    color: white;
+}
+  
+::placeholder { 
+    color: rgb(253, 0, 0);
+  }
+input:focus::-webkit-input-placeholder {
+    color: white;
+}
+  
+input:focus {
+    outline: none;
+}
+  
+li {
+    text-align: left;
+    font-size: 25px;
+    margin: 0;
+  }
+  
+li:hover {
+    text-decoration: line-through;
+    color: red;
+}
+
